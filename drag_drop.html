@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag, Drop & Browse App</title>
+
+    <link rel="stylesheet" href="assets/style_drag_drop.css">
+    <!-- BoxIcons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>Sube tu archivo</h3>
+        <div class="drag-area">
+            <div class="icon">
+                <!-- <i class='bx bxs-cloud-upload'></i> -->
+                <i class='bx bx-images'></i>
+            </div>
+
+            <span class="header">Arrastrar & soltar</span>
+            <span class="header">o <span class="button">examine</span></span>
+            <input type="file" hidden />
+            <span class="support">Compatible: JPEG, JPG y PNG</span>
+        </div>
+        <div class="secction">
+            <div class="sponsor" id="image_1"></div>
+            <div class="sponsor" id="image_2"></div>
+            <div class="sponsor" id="image_3"></div>
+            <div class="sponsor" id="image_4"></div>
+        </div>
+    </div>
+
+    <script type="module" src="assets/script_drag_drop.js"></script>
+</body>
+
+</html>

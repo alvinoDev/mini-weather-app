@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Weather App</title>
+
+    <link rel="stylesheet" href="assets/style_location.css">
+    <!-- BoxIcons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <i class="bx bx-left-arrow-alt"></i> Mini Weather App
+        </header>
+
+        <section class="input-part">
+            <p class="info-txt"></p>
+            <input type="text" placeholder="Enter city name..." spellcheck="false" required>
+            <div class="separator"></div>
+            <button id="locationBtn">
+                <i class='bx bx-current-location'></i>
+                <span>Obtener ubicación</span>
+            </button>
+        </section>
+
+        <section class="weather-part">
+            <img src="#" alt="Weather icon">
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">°</span>C
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <i class='bx bx-map'></i>
+                <span>_, _</span>
+            </div>
+            <div class="botton-details">
+                <div class="column feels">
+                    <i class='bx bxs-thermometer'></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Sesación</p>
+                    </div>
+                </div>
+                <div class="column humidity">
+                    <i class='bx bxs-droplet-half'></i>
+                    <div class="details">
+                        <span>_</span>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="module" src="assets/script_location.js"></script>
+</body>
+
+</html>
